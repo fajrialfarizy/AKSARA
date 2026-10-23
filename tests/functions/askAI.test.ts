@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
-import handler from './askAI';
+import handler from '../../netlify/functions/askAI';
 
 const validBody = {
   query: 'Berapa beban sewa pada jurnal?',
